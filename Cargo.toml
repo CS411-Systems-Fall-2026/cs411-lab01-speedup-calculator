@@ -1,0 +1,15 @@
+[package]
+name = "speedup"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "speedup"
+path = "src/bin/speedup.rs"
+
+[[bin]]
+name = "plot"
+path = "src/bin/plot.rs"
+
+[dependencies]
+plotters = "0.3"
